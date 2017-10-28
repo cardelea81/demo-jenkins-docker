@@ -1,8 +1,6 @@
 package: demo-go-lapi
-import:
-- package: github.com/goline/lapi
+import: []
 testImport:
-- package: github.com/goline/tests
 - package: github.com/onsi/ginkgo
   version: ~1.4.0
 - package: github.com/onsi/gomega

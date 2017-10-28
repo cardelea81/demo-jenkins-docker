@@ -1,11 +1,7 @@
-hash: fff9e916ffe4d58fd34620e2c5c3b92ea47f2e4915a9f59270d3ace671af81e5
-updated: 2017-10-28T13:38:15.544480494+07:00
-imports:
-- name: github.com/goline/lapi
-  version: 7c26abdef735ca20dd7fc60b8db419f10cdc6913
+hash: dc767508ef95b8c0157b92bd3114220ee74938c7c1889e79912a1de3b6cbe77a
+updated: 2017-10-28T14:48:20.346985453+07:00
+imports: []
 testImports:
-- name: github.com/goline/tests
-  version: e342e51bff89aa77f5a5c378f6ef5366bcaf7ec6
 - name: github.com/onsi/ginkgo
   version: 9eda700730cba42af70d53180f9dcce9266bc2bc
   subpackages:
