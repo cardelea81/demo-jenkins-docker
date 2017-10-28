@@ -1,4 +1,4 @@
-package: demo-go-lapi
+package: demo-jenkins-docker
 import: []
 testImport:
 - package: github.com/onsi/ginkgo
