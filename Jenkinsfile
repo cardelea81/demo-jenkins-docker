@@ -1,14 +1,14 @@
 pipeline {
 	agent none
 :	environment {
-		QUAY_REPO = 'quay.io/dotronglong/go-demo'
+		QUAY_REPO = 'quay.io/cardelea81/go-demo'
 		QUAY_REPO_TAG = 'latest'
     }
 	stages {
 		stage('CheckOut') {
 			agent { label 'master' }
 			steps {
-				checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/dotronglong/demo-jenkins-docker.git']]])
+				checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/cardelea81/demo-jenkins-docker.git']]])
 			}
 		}
 		stage('Prepare') {
